@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Pierrot"
   given-names: "Denis"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
+  orcid: "https://orcid.org/0000-0002-0374-3825"
 title: "pCO2_Sys: Matlab program to quality-control and submit surface pCO2 data collected with General Oceanics autonomous underway pCO2 instruments."
 version: 1.4.0
 doi: 10.5281/zenodo.17260995
