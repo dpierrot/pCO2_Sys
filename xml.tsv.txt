@@ -1,0 +1,69 @@
+"Standards Info (conc, tank num, owner)"					
+229.09	JA02282	AOML			
+232.26	CB09731	ESRL				
+425.45	JA02273	AOML-X2007			
+425.64	JA02273	AOML			
+430.52	CC720367	ESRL-X2007			
+430.75	CC720367	ESRL			
+498.6	CC749968	AOML-X2019			
+503.43	CB11260	ESRL-X2007			
+					
+"Platform Info (Expocode, Name, Type, Owner, Experiment Type)"					
+33RO	R/V Ronald H. Brown	Ship	NOAA	Research Cruise	AOML_SOOP_CO2
+74X1	M/V Las Cuevas	Ship	Greenlight Transport S.A	SOOP Line	AOML_SOOP_CO2
+MLCE	M/V Equinox	Ship	Royal Caribbean International	SOOP Line	AOML_SOOP_CO2
+33HH	R/V Henry B. Bigelow	Ship	NOAA	Research Cruise	AOML_SOOP_OA
+					
+Platform Type Info					
+Self-propelled surface platform					
+Ship					
+Mooring					
+Surface Drifter					
+Others					
+					
+"People Info (name, organization, address, phone, email)"					
+"Pierrot, Denis"	NOAA/AOML CIMAS	"4301 Rickenbacker Causeway, Miami, Fl 33149"	(305) 361-4441	denis.pierrot@noaa.gov	
+					
+Cruise Type Info					
+Research Cruise					
+SOOP Line					
+VOS Line					
+Moored Buoy					
+Drifting Buoy					
+					
+Edit_Fields Info (will be displayed in red-no brackets: f1.f2.f3)					
+x_tags.User.Name					
+x_tags.User.Organization					
+x_tags.User.Address					
+x_tags.User.Phone					
+x_tags.User.Email					
+x_tags.Investigator.Name					
+x_tags.Investigator.Organization					
+x_tags.Investigator.Address					
+x_tags.Investigator.Phone					
+x_tags.Investigator.Email					
+x_tags.Cruise_Info.Experiment.Experiment_Name					
+x_tags.Cruise_Info.Experiment.Experiment_Type					
+x_tags.Cruise_Info.Experiment.Cruise.Cruise_ID					
+x_tags.Cruise_Info.Experiment.Cruise.Cruise_Info					
+x_tags.Cruise_Info.Experiment.Cruise.Geographical_Coverage.Bounds.Westernmost_Longitude					
+x_tags.Cruise_Info.Experiment.Cruise.Geographical_Coverage.Bounds.Easternmost_Longitude					
+x_tags.Cruise_Info.Experiment.Cruise.Geographical_Coverage.Bounds.Northernmost_Latitude					
+x_tags.Cruise_Info.Experiment.Cruise.Geographical_Coverage.Bounds.Southernmost_Latitude					
+x_tags.Cruise_Info.Experiment.Cruise.Temporal_Coverage.Start_Date					
+x_tags.Cruise_Info.Experiment.Cruise.Temporal_Coverage.End_Date					
+x_tags.Cruise_Info.Experiment.Cruise.Ports_of_Call					
+x_tags.Cruise_Info.Vessel.Vessel_Name					
+x_tags.Cruise_Info.Vessel.Vessel_ID					
+x_tags.Cruise_Info.Vessel.Vessel_Owner					
+x_tags.Method_Description.CO2_Sensors.CO2_Sensor.Manufacturer_of_Calibration_Gas					
+x_tags.Additional_Information					
+gmd:fileIdentifier.gco:characterString					
+gmd:referenceSystemInfo.gmd:MD_ReferenceSystem.gmd:referenceSystemIdentifier.gmd:RS_Identifier.gmd:authority.gmd:CI_Citation.gmd:title.gco:CharacterString					
+					
+					
+CO2 Instr Info					
+Equilibrator-IR or CRDS or GC					
+Membrane-IR					
+Spectrophotometry					
+Others					

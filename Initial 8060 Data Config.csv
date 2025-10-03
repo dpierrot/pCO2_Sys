@@ -1,0 +1,2 @@
+x-axis Time,Date UTC,Time UTC,Latitude,Longitude,EQU Pressure,EQU Temp,H2O flow,gas flow,LICOR Cavity,Ambient Pressure,Sample Type,Salinity,in situ Temp,Std Value,LICOR XCO2,LICOR H2O,ATM Pressure,cpu Temp,Deck Box T,Deck Box P,Condenser T
+YDay Calc,PcDate,PcTime,latitude,longitude,EquPress,EquTemp,EquH2OFlow,LicorFlow,CAVITY TEMP,DruckLabPress,Type,TSG Salinity,SST,CO2StdValue,CO2ppm,H2Oppm,atm press, dry box temp,deck box temp,atm press,CondTemp

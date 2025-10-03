@@ -1,0 +1,159 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3111248663" file="\\mac\home\Documents\Programs\Matlab\pCO2 Sys v1.40 R2018+ LI7815\pCO2_Sys_V140.prj" location="\\mac\home\Documents\Programs\Matlab\pCO2 Sys v1.40 R2018+ LI7815" name="pCO2_Sys_V140" preferred-package-location="C:\Users\denis.pierrot\Documents\Programs\Matlab\pCO2 Sys v1.30 R2018+\exe\mac\for_redistribution" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>pCO2_Sys_v140</param.appname>
+    <param.icon>${PROJECT_ROOT}\pCO2_Sys_V140_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\pCO2_Sys_V140_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\pCO2_Sys_V140_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\pCO2_Sys_V140_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\pCO2_Sys_V140_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.40</param.version>
+    <param.authnamewatermark>Denis Pierrot</param.authnamewatermark>
+    <param.email>denis.pierrot@noaa.gov</param.email>
+    <param.company>NOAA/AOML</param.company>
+    <param.summary>Surface pCO2 data reduction program</param.summary>
+    <param.description>Surface pCO2 data reduction program mostly used to treat data output from a General Oceanics autonomous system. The program can be adapted to work on data coming from any system. This version can be used with GO 8060 systems.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\Icon\pCO2 Sys Sand Icon - use.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\pCO2_Sys_v140\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo>${PROJECT_ROOT}\Icon\pCO2 Sys Sand Icon - use.png</param.logo>
+    <param.install.notes>Enjoy!</param.install.notes>
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\exe\mac\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\exe\mac\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\exe\mac\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\exe\mac\log</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>pCO2_Sys_v140_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file>pCO2_Sys_Log.txt</param.log.file>
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	 pCO2_Sys_v140 -? 
+	 pCO2_Sys_v140 varargin 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 varargin  input arguments 
+ Description 
+ 	 Surface pCO2 data reduction program mostly used to treat data output from a General Oceanics autonomous system. The program can be adapted to work on data coming from any system. This version can be used with GO 8060 systems.</param.help.text>
+    <unset>
+      <param.guid />
+      <param.installpath.combo />
+      <param.target.install.notes />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\pCO2_Sys_v140.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\gshhs_f.b</file>
+      <file>${PROJECT_ROOT}\gshhs_h.b</file>
+      <file>${PROJECT_ROOT}\gshhs_l.b</file>
+      <file>${PROJECT_ROOT}\pCO2_Sys_v140.fig</file>
+    </fileset.resources>
+    <fileset.package>
+      <file>${PROJECT_ROOT}\Icon\pCO2 Sys Icon - use.icns</file>
+      <file>${PROJECT_ROOT}\Manual\pCO2 Sys v1.40 Instructions.pages.pdf</file>
+      <file>${PROJECT_ROOT}\pCO2_Sys_v140.ini</file>
+      <file>${PROJECT_ROOT}\xml.tsv.txt</file>
+      <file>${PROJECT_ROOT}\xml.tsv.xlsx</file>
+    </fileset.package>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Edit_xml.fig</file>
+      <file>${PROJECT_ROOT}\Edit_xml.m</file>
+      <file>${PROJECT_ROOT}\findjobj.m</file>
+      <file>${PROJECT_ROOT}\merge.fig</file>
+      <file>${PROJECT_ROOT}\merge.m</file>
+      <file>${PROJECT_ROOT}\Savef_v2.fig</file>
+      <file>${PROJECT_ROOT}\Savef_v2.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\exe\mac\for_testing" name="pCO2_Sys_v140.exe" optional="false">\\mac\home\Documents\Programs\Matlab\pCO2 Sys v1.40 R2018+ LI7815\exe\mac\for_testing\pCO2_Sys_v140.exe</file>
+      <file location="${PROJECT_ROOT}\exe\mac\for_testing" name="readme.txt" optional="true">\\mac\home\Documents\Programs\Matlab\pCO2 Sys v1.40 R2018+ LI7815\exe\mac\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\exe\mac\for_testing" name="splash.png" optional="false">\\mac\home\Documents\Programs\Matlab\pCO2 Sys v1.40 R2018+ LI7815\exe\mac\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
